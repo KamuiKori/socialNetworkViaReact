@@ -1,0 +1,30 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialog{
+
+}
+.dialogsItems .dialog{
+    padding: 10px;
+    margin: 5px;
+    background-color: #e66465;
+    border-radius: 10px;
+}
+.dialog a{
+    text-decoration: none;
+}
+.dialogsItems .active{
+    background-color: azure;
+    max-height: 20px;
+}
+.dialogsItems .active img{
+    max-height: 20px;
+    padding-right: 10px;
+}
+.messages .message{
+    margin: 5px;
+    padding: 10px;
+    background-color: #9198e5;
+    border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+.nav{
+    grid-area: n;
+    background: linear-gradient(to right , #9198e5, #e66465, #9198e5);
+    border-radius: 7px 7px 0 0;
+}
+.itemFriends{
+    text-align: center;
+}
+.itemFriends li{
+    display: inline;
+}
+.itemFriends a{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+}
+.itemFriends a.active{
+    color:#6495ED;
+    background: azure;
+    border-radius: 4px;
+    transition: .4s linear;
+}
+.itemFriends ul{
+    padding: 0;
+}
+.item a{
+    color: white;
+    text-decoration: none;
+}
+.item{
+    padding: 10px 0 10px 10px ;
+    font-size: 20px;
+}
+.item a.active{
+    color:#6495ED;
+    background: azure;
+    border-radius: 4px;
+    transition: .4s linear;
+}
+.nav img{
+    width: 50px;
+}
